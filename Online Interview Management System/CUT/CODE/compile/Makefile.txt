@@ -1,0 +1,16 @@
+all: company
+
+company: main_menu_client.o company_def.o validation.o
+        gcc main_menu_client.o company_def.o validation.o -o company
+
+main_menu_client.o: main_menu_client.c
+        gcc -c company_header.h main_menu_client.c
+
+company_def.o: company_def.c
+        gcc -c company_header.h company_def.c
+
+validation.o: validation.c
+        gcc -c company_header.h validation.c
+
+clean:
+        rm *.o
