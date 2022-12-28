@@ -1,0 +1,29 @@
+msaieswa@inlen6239015081:~/online_interview$ splint ./interview
+Splint 3.1.2 --- 20 Feb 2018
+
+Command Line: Unrecognized file extension:
+                 ./interview (assuming ./interview is C source code)
+  warn when command line file does not have a recognized extension (Use
+  -fileextensions to inhibit warning)
+interview:1:2: Invalid character (ascii: 127), skipping character
+  Code cannot be parsed.  For help on parse errors, see splint -help
+  parseerrors. (Use -syntax to inhibit warning)
+interview:1:6: Invalid character (ascii: 2), skipping character
+interview:1:7: Invalid character (ascii: 1), skipping character
+interview:1:8: Invalid character (ascii: 1), skipping character
+interview:1:9: Invalid character (ascii: 0), skipping character
+interview:1:10: Invalid character (ascii: 0), skipping character
+interview:1:11: Invalid character (ascii: 0), skipping character
+interview:1:12: Invalid character (ascii: 0), skipping character
+interview:1:13: Invalid character (ascii: 0), skipping character
+interview:1:14: Invalid character (ascii: 0), skipping character
+interview:1:15: Invalid character (ascii: 0), skipping character
+interview:1:16: Invalid character (ascii: 0), skipping character
+interview:1:17: Invalid character (ascii: 0), skipping character
+interview:1:18: Invalid character (ascii: 3), skipping character
+interview:1:19: Invalid character (ascii: 0), skipping character
+interview:1:20: Parse Error: Non-function declaration: ELF :
+    int. (For help on parse errors, see splint -help parseerrors.)
+*** Cannot continue.
+msaieswa@inlen6239015081:~/online_interview$
+
